@@ -1,0 +1,27 @@
+Background
+
+National Big Tree Program is a conservation movement to locate, appreciate and protect the biggest tree species in the United States. More than 750 champions are crowned each year and documented in the annual publication, i.e the National Register of Big Trees.
+
+For more than 70 years, the goal of the National Big Tree Program has remained: to preserve and promote the iconic stature of these living monarchs and to educate people about the key role that these remarkable trees and forests play in sustaining a healthy environment." (from the American Forests Big Tree Registry site:)
+
+How are the "winners" crowned? Each nominated tree is given a score based on its girth, height and canopy spread. A formula is applied which gives each tree a points value:
+Total Points = Trunk Circumference (in inches) + Height (in feet) + 1/4 * Average Crown Spread (in feet)
+
+The average crown spread is calculated by taking the largest spread and the narrowest spread and dividing that total by 2. Here is a link to a US Forest Service web site with an
+example: http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5202838.pdf
+
+In this application we are going to help the "Big Tree Hunters" by buiding a Java application that will calculate the Total Points value of a candidate "big tree", which can be used in the nomination process.
+
+Requirements
+You will write a single Java program, PA1.java, that must:
+Prompt for and receive the Common Name of the tree. The prompt must be of the form, "Enter the common name: " and the cursor must remain on the line beside the space following the colon.
+Prompt and receive the Scientific Name of the tree. The prompt must be of the form, "Enter the scientific name: " and the cursor must remain on the line beside the space following the colon.
+Prompt and receive the Circumference of the tree. The prompt must be of the form, "Enter the circumference in inches: " Prompt for and receive the Height of the tree. The prompt must be of the form, "Enter the height in feet: "
+Prompt for and receive the largest Crown Spread of the tree. The prompt must be of the form, "Enter the largest crown spread in feet: "
+Prompt for and receive the narrowest Crown Spread of the tree. The prompt must be of the form, "Enter the smallest crown spread in feet: "
+Calculate the Average Crown Spread of the tree ans save the value in an integer variable. Note: You may loose some data here if the sum of crown is an odd number. DO NOT worry about it for THIS program.
+Calculate the points value for the tree using the formula:
+Total Points = Trunk Circumference (inches) + Height (feet) + 1/4 * Average Crown Spread (feet)
+
+
+
