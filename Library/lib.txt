@@ -1,0 +1,7 @@
+This assignment is inspired by the Little Free Library organization which has managed to charter small "libraries" across the world. Each "library" encourages patrons to take a book or leave a book to promote the accessibility of books and reading in general. They are community spaces, many with benches or seats nearby and all are maintained by volunteers. We will be simulating an information management system to be used in these libraries.
+
+
+In this assignment, imagine that the Little Free Library organization has contracted with the SU EECS department to track how much money they could earn if they were a commercial organization that charged late fees for overdue books. This information will then be used for local librarians to apply for funding from other non-profit foundations or the government. Each book and patron will be modeled by classes with relevant data and methods as outlined in the UML diagram and descriptions shown below. The Library class
+    
+will then have arrays of books and patrons along with methods that allow for books to be checked in, checked out, and found in addition to determining fines.
+Look at the following UML Diagram of this library system. All of the required files are provided for you except Patron.java and Book.java, which you need to implement in this homework.
