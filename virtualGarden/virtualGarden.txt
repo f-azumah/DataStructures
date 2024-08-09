@@ -1,0 +1,36 @@
+In today's lab you will simulate a virtual garden through Inheritance and ArrayList. The Arraylist will act like the virtual garden that can hold two different types of objects. One of them is plant object and the other is flower object.
+Here, Plant.java is the base/parent class and Flower.java is the derived/child class.
+
+Both Plant and Flower objects have some common properties like: name and cost. But Flower have some additional properties like: if_flower_is_annual and color
+Your program should ask the user to enter plant's information as follows: plant plantName plantCost
+Your program should also ask the user to enter flower's information as follows: flower flowerName flowerCost isAnnual color
+The program should read plants or flowers from input (ending with -1), adding each plant or flower to the myGarden ArrayList and then printing them.
+
+Here is an example Test Scenario:
+If the input is:
+plant Spirea 10
+flower Hydrangea 30 false lilac 
+flower Rose 6 false white 
+plant Mint 4
+-1
+
+The output is:
+Plant Information: 
+Plant name: Spirea 
+Cost: 10
+
+Plant Information:
+Plant name: Hydrengea 
+Cost: 30
+Annual: false
+Color of flowers: lilac
+
+Plant Information:
+Plant name: Rose 
+Cost: 6
+Annual: false
+Color of flowers: white
+
+Plant Information: 
+Plant name: Mint 
+Cost: 4
